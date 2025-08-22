@@ -11,6 +11,7 @@ import {
     IconUsersGroup,
 } from "@tabler/icons-react";
 
+
 // Data for the feature cards remains the same.
 const features = [
     {
@@ -44,14 +45,14 @@ const features = [
         icon: <IconUsersGroup />,
     },
     {
-        title: "Simple & Intuitive",
-        description: "A complex backend doesn't mean a complex interface. Planning your dream trip is just a few clicks away.",
-        icon: <IconEaseInOut />,
-    },
-    {
         title: "Built with Passion",
         description: "This isn't just code; it's a tool built by travelers, for travelers, with a love for India.",
         icon: <IconHeartHandshake />,
+    },
+    {
+        title: "Simple & Intuitive",
+        description: "A complex backend doesn't mean a complex interface. Planning your dream trip is just a few clicks away.",
+        icon: <IconEaseInOut />,
     },
 ];
 
